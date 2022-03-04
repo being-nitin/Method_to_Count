@@ -2,9 +2,9 @@ package com.company;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Input the string:");
-        String str = in.nextLine();
+        String str = sc.nextLine();
         System.out.println("Number of vowels in the string:" + count_Vowels(str) + "\n");
     }
     public static int count_Vowels(String str)
